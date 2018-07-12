@@ -7,7 +7,7 @@ Bname	<name-given-for-matrix-B>
 Btransfm	10 [-1 indicates no transform]
 Btransfp	2 [considered only with valid transfm, which is currently only "10"]
 usetdistancemaxforA	True	[specify whether to divide the values in matrices by TDistance.MaxValue. Ignored if readPointsA=True]
-usetdistancemaxforA	True	[specify whether to divide the values in matrices by TDistance.MaxValue. Ignored if readPointsB=True]
+usetdistancemaxforB	True	[specify whether to divide the values in matrices by TDistance.MaxValue. Ignored if readPointsB=True]
 readPointsA	False	[Read points file and compute pairwise distances for A]
 readPointsB	False	[Read points file and compute pairwise distances for B]
 cols	95672	[Number of columns]
